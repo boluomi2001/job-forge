@@ -1,0 +1,30 @@
+name: validate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate SKILL.md frontmatter
+        run: python3 .github/scripts/check_skill.py
+
+      - name: Shell script syntax
+        run: |
+          bash -n scripts/install.sh
+          bash -n scripts/uninstall.sh
+
+      - name: JSON validity
+        run: |
+          for f in .claude-plugin/plugin.json .claude-plugin/marketplace.json .codex-plugin/plugin.json; do
+            python3 -m json.tool "$f" > /dev/null && echo "ok $f"
+          done
+
+      - name: Line endings (shell must be LF, PowerShell must be CRLF-on-checkout)
+        run: python3 .github/scripts/check_eol.py
