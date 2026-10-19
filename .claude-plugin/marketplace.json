@@ -1,0 +1,33 @@
+{
+  "name": "job-forge",
+  "description": "job-forge 求职全流程技能市场",
+  "owner": {
+    "name": "job-forge contributors",
+    "url": "https://github.com/boluomi2001"
+  },
+  "plugins": [
+    {
+      "name": "job-forge",
+      "version": "1.0.0",
+      "author": {
+        "name": "job-forge contributors",
+        "url": "https://github.com/boluomi2001"
+      },
+      "homepage": "https://github.com/boluomi2001/job-forge",
+      "repository": "https://github.com/boluomi2001/job-forge",
+      "license": "MIT",
+      "keywords": [
+        "job-search",
+        "career",
+        "interview",
+        "resume",
+        "transition",
+        "agent-skills"
+      ],
+      "source": "./",
+      "displayName": "job-forge · 求职锻造炉",
+      "description": "从「这行值不值得进」到「投递追踪 + 面试复盘」的一条流水线：方向闸门、单一事实源、三档速度、面经情报、AI 岗能力域追问。",
+      "category": "Productivity"
+    }
+  ]
+}

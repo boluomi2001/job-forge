@@ -1,0 +1,49 @@
+# ---- OS / Editor ----
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.swp
+*~
+
+# ---- Node ----
+node_modules/
+npm-debug.log*
+pnpm-lock.yaml.bak
+.npm/
+dist/
+.cache/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# ---- 求职个人数据（绝对不要提交）----
+# 主档、账本、简历、投递记录属于隐私数据，一律留在本地工作区
+求职主档-*.md
+账本-*.json
+简历-*.html
+简历-*.pdf
+投递进度-*.html
+投递进度-*.csv
+投递信息.md
+面试准备-*.md
+导学-*.md
+面经-*.md
+
+# 仓库内的虚构示例必须保留
+!examples/求职主档-示例.md
+
+# ---- 本地安装与临时产物 ----
+.install-backup/
+*.bak
+*.bak-*
+*.log
+tmp/
+.tmp*
+/output/

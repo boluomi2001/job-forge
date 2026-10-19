@@ -1,0 +1,32 @@
+{
+  "name": "job-forge",
+  "version": "1.0.0",
+  "author": {
+    "name": "job-forge contributors",
+    "url": "https://github.com/boluomi2001"
+  },
+  "homepage": "https://github.com/boluomi2001/job-forge",
+  "repository": "https://github.com/boluomi2001/job-forge",
+  "license": "MIT",
+  "description": "求职全流程技能：方向闸门、经历锻造、JD 匹配、简历出稿、面经情报、模拟面试、反问、投递追踪与复盘。",
+  "keywords": [
+    "job-search",
+    "career",
+    "interview",
+    "resume",
+    "transition",
+    "agent-skills"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "job-forge · 求职锻造炉",
+    "shortDescription": "从选赛道到拿 offer 的一条流水线",
+    "longDescription": "job-forge 把求职拆成有闸门的九段：M1 四层方向判断（含止损）、经历锻造（挖/导/造）、JD 五态匹配、简历改写与 HTML/PDF 出稿、面经与舆情情报、模拟面试（一次一问+评分契约+复练）、反问清单、投递追踪、复盘回写。执行层能力由上游 ASu-skills 提供，本项目只做编排与五处增强。",
+    "developerName": "job-forge contributors",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ]
+  }
+}

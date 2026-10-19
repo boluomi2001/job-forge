@@ -1,0 +1,24 @@
+{
+  "name": "job-forge",
+  "version": "1.0.0",
+  "description": "求职全流程技能：方向闸门（四层考古+止损）→ 经历锻造 → JD 匹配 → 简历改写/出稿 → 面经情报 → 模拟面试 → 反问 → 投递追踪 → 复盘。编排上游 ASu-skills 的执行能力，并补上它没有的五处增强。",
+  "author": {
+    "name": "job-forge contributors"
+  },
+  "homepage": "https://github.com/boluomi2001/job-forge",
+  "repository": "https://github.com/boluomi2001/job-forge",
+  "license": "MIT",
+  "keywords": [
+    "job-search",
+    "career",
+    "interview",
+    "resume",
+    "transition",
+    "ai-career",
+    "chinese",
+    "agent-skills"
+  ],
+  "skills": "./skills/",
+  "displayName": "job-forge · 求职锻造炉",
+  "category": "Productivity"
+}
